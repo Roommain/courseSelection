@@ -1,0 +1,109 @@
+{
+    "pages": [
+      "pages/main/main",
+      "pages/callUp/main",
+      "pages/bindPhone/main",
+      "pages/index/main",
+      "pages/logs/main",
+      "pages/counter/main",
+      "pages/purchase/main",
+      "pages/essential/main",
+      "pages/historical/main"
+    ],
+    "window": {
+      "backgroundTextStyle": "light",
+      "navigationBarBackgroundColor": "#fff",
+      "navigationBarTitleText": "cqupt选课",
+      "navigationStyle": "default",
+      "navigationBarTextStyle": "black"
+    },
+    "sitemapLocation": "sitemap.json",
+    "tabBar":{
+      "color": "#999",
+      "backgroundColor": "#fff",
+      "selectedColor": "#d81e06",
+      "borderStyle": "black",
+      "list": [{
+          "text": "设备列表",
+          "pagePath": "pages/index/main",
+          "iconPath": "/static/images/shouye0.png",
+          "selectedIconPath": "/static/images/shouye.png"
+      },
+      {
+          "text": "基本信息",
+          "pagePath": "pages/essential/main",
+          "iconPath": "/static/images/jibenxinxi0.png",
+          "selectedIconPath": "/static/images/jibenxinxi.png"
+      },
+      {
+          "text": "历史轨迹",
+          "pagePath": "pages/historical/main",
+          "iconPath": "/static/images/guiji0.png",
+          "selectedIconPath": "/static/images/guiji.png"
+      },
+      {
+          "text": "途强商城",
+          "pagePath": "pages/purchase/main",
+          "iconPath": "/static/images/goumai0.png",
+          "selectedIconPath": "/static/images/goumai.png"
+      }],
+      "position":"bottom"
+    },
+    "usingComponents": {
+      "i-cell-group": "/static/iview/cell-group/index",
+      "i-cell": "/static/iview/cell/index",
+      "i-icon": "/static/iview/icon/index",
+      "i-grid": "/static/iview/grid/index",
+      "i-grid-item": "/static/iview/grid-item/index",
+      "i-card": "/static/iview/card/index",
+      "i-row": "/static/iview/row/index",
+      "i-col": "/static/iview/col/index",
+      "i-panel": "/static/iview/panel/index",
+      "i-button": "/static/iview/button/index",
+      "i-switch": "/static/iview/switch/index",
+      "i-grid-icon": "/static/iview/grid-icon/index",
+      "i-grid-label": "/static/iview/grid-label/index",
+      "i-action-sheet": "/static/iview/action-sheet/index",
+      "i-message": "/static/iview/message/index",
+      "i-alert": "/static/iview/alert/index",
+      "i-avatar": "/static/iview/avatar/index",
+      "i-badge": "/static/iview/badge/index",
+      "i-checkbox-group": "/static/iview/checkbox-group/index",
+      "i-checkbox": "/static/iview/checkbox/index",
+      "i-drawer": "/static/iview/drawer/index",
+      "i-input": "/static/iview/input/index",
+      "i-input-number": "/static/iview/input-number/index",
+      "i-modal": "/static/iview/modal/index",
+      "i-notice-bar": "/static/iview/notice-bar/index",
+      "i-page": "/static/iview/page/index",
+      "i-progress": "/static/iview/progress/index",
+      "i-radio-group": "/static/iview/radio-group/index",
+      "i-radio": "/static/iview/radio/index",
+      "i-rate": "/static/iview/rate/index",
+      "i-spin": "/static/iview/spin/index",
+      "i-steps": "/static/iview/steps/index",
+      "i-step": "/static/iview/step/index",
+      "i-tab-bar": "/static/iview/tab-bar/index",
+      "i-tab-bar-item": "/static/iview/tab-bar-item/index",
+      "i-tabs": "/static/iview/tabs/index",
+      "i-tab": "/static/iview/tab/index",
+      "i-tag": "/static/iview/tag/index",
+      "i-toast": "/static/iview/toast/index",
+      "i-swipeout": "/static/iview/swipeout/index",
+      "i-count-down": "/static/iview/count-down/index",
+      "i-divider": "/static/iview/divider/index",
+      "i-index": "/static/iview/index/index",
+      "i-index-item": "/static/iview/index-item/index",
+      "i-collapse": "/static/iview/collapse/index",
+      "i-collapse-item": "/static/iview/collapse-item/index",
+      "i-sticky": "/static/iview/sticky/index",
+      "i-sticky-item": "/static/iview/sticky-item/index",
+      "i-load-more": "/static/iview/load-more/index"
+    },
+    "permission": {
+      "scope.userLocation": {
+        "desc": "你的位置信息将用于小程序位置接口的效果展示"
+      }
+    }
+  }
+  
